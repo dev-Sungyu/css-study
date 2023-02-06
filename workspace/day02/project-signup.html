@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>무료 가입하기 - 숨고, 숨은고수</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="project-signup.css">
+</head>
+<body>
+    <div id="header"></div>
+	<div id="wrap" style="width: 500px; margin: 0 auto">
+		<div>
+			<h1 style="font-weight: 500;">숨고에 오신 것을 환영합니다</h1>
+		</div>
+		<div class="under">
+			<div class="info">
+				<div style="font-size: 15px; font-size: 1rem; padding-bottom: 0.375rem;">
+					이름
+				</div>
+				<div id="name">
+			         <input type="text"; placeholder="이름(실명)을 입력해주세요" name="userId" required autocomplete="none" style="width:287px; height:17px; font-size:13px; padding: 0.75rem; border-radius: 4px; border: 0.0625rem solid #e1e1e1; font-weight: 600;">
+				</div>
+				<br>
+				<div style="font-size: 15px; font-size: 1rem; padding-bottom: 0.375rem;">
+					이메일
+				</div>
+				<div id="email">
+					<input type="text" placeholder="example@soomgo.com" name="userId" required autocomplete="none" style="width:287px; height:17px; font-size:13px; padding: 0.75rem; border-radius: 4px; border-style: none; border: 0.0625rem solid #e1e1e1; font-weight: 600;">
+				</div>
+				<br>
+				<div style="font-size: 15px; padding-bottom: 0.375rem;">
+					비밀번호
+                    
+				</div>
+				<div id="password, style=" style="position: relative;width: 313px;">
+					<input type="password" placeholder="영문+숫자 조합 8자리 이상 입력해주세요" name="userPassword" required style="width:287px; height:17px; font-size:13px; padding: 0.75rem; border-radius: 4px; border: 0.0625rem solid #e1e1e1; font-weight: 600;">
+                    <button id="mark" style="cursor: pointer; font-size: 11px;">표시</button>
+				</div>
+				<br>
+				<div id="agree" style="width: 320px;">
+         			<p>
+			            <label style="font-size: 18px"><input type="checkbox" name="agree" value="전체 동의"> 전체 동의</label>
+			            <br>
+			            <br>
+                        <div>
+                            <div class="look">
+                                <div style="display: flex; height: 1.25rem; justify-content: space-between; align-items: center; margin: 0px;">
+                                    <div>
+                                    <label style="font-size: 15px; color:#737373;"><input type="checkbox" name="agree" value="(필수) 이용약관 동의" width="300px"> (필수) 이용약관 동의</label>
+                                    </div>
+                                    <div>
+                                    <button id="look1" style="background-color: white;cursor: pointer;">보기</button>
+                                    </div>
+                                </div>
+                                <div style="display: flex; position: relative; height: 1.25rem; justify-content: space-between; align-items: center; margin: 0px;">
+                                    <br>
+                                    <div>
+                                        <label style="font-size: 15px; position: absolute; color:#737373; left: 0%;"><input type="checkbox" name="agree" value="(필수) 개인정보 수집 및 이용 동의" width="300px"> (필수) 개인정보 수집 및 이용 동의</label>
+                                    </div>
+                                    <div>
+                                    <button id="look2" style="background-color: white; position: absolute; right: 0%;cursor: pointer;">보기</button>
+                                    </div>
+                                </div>
+                                <br>
+                                <label style="font-size: 15px; color:#737373;"><input type="checkbox" name="agree" value="(필수) 14세 이상"> (필수) 14세 이상</label>
+                            </p>
+                        </div>
+                    </div>
+				</div>	
+			</div>
+			<br>
+            <div>
+                <div>
+                    <button style="cursor: pointer; width:338.4px;height:48px;font:15px;font-size: 15px; background-color: #00c7ae; border-color: #00c7ae; border: none; color: white; font-weight: 600;" >
+                        회원가입
+                    </button>
+                </div>
+                <br>
+                <div>
+                    <button class="facebook">
+                        <img style="position: absolute;left: 18%" width="19px" ; src="https://assets.cdn.soomgo.com/icons/icon-login-facebook-btn.svg">
+                        <span>Facebook으로 가입하기</span>
+                    </button>
+                </div>
+                <br>
+                <div>
+                    <button style="cursor: pointer; width:338.4px;height:48px;font:15px;font-size: 15px; background-color: #fff; border-color: #fff; border: none; color: #737373; font-weight: 600;">
+                        고수로 가입하시나요?
+                    </button>
+                </div>
+            </div>
+		</div>
+	</div>
+</body>
+<script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+<script>
+    
+    $(document).ready(function(){
+        $("#header").load("project-header.html");
+    });
+</script>
+</html>

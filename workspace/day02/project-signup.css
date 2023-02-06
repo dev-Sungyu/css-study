@@ -1,0 +1,106 @@
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #323232;
+    text-align: center;
+    background-color: #fafafa;
+ }
+ .info {
+    width: 26.25rem;
+    margin: 0 auto;
+    box-shadow: none;
+    text-align: left;
+ }
+ .under {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 0.0625rem solid rgba(0,0,0,.125);
+    border-radius: 0.25rem;
+    border: none;
+    max-width: 350px;
+    
+    width: 100%;
+    /* max-width: 26.5rem; */
+    border: 0.0625rem solid #f2f2f2;
+    border-radius: 8px;
+    padding: 2.5rem;
+    margin: 0 auto;
+    box-shadow: none;
+ }
+div.name, div.email, div.password{
+    display: block;
+    width: 100%;
+    height: calc(1.5em + 1.5rem);
+    padding: 0.6875rem 1rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #323232;
+    background-color: #fff;
+    border: 0.0625rem solid #e1e1e1;
+    border-radius: 0.25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+ }
+ input::-webkit-input-placeholder { color: #bdbdbd; }
+
+ button.facebook {
+    position: relative;
+     cursor: pointer; 
+     width:338.4px;
+     height:48px;
+     font:15px;
+     font-size: 15px;
+     background-color: #1876f1; 
+     border-color: #1876f1; 
+     border: none; 
+     color: white; 
+     font-weight: 600;
+ }
+ button#mark {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    height: 100%;
+    background-color: transparent;
+    width: 3.125rem;
+    z-index: 10;
+    text-align: right;
+    color: rgb(0, 199, 174);
+    font-weight: 400;
+    border-width: initial;
+    border-style: none;
+    border-color: initial;
+    border-image: initial;
+ }
+ button#look1, button#look2 {
+    font-weight: 400;
+    border-width: 0px;
+    border-style: initial;
+    border-color: initial;
+    border-image: initial;
+    padding: 0px;
+    color: rgb(181, 181, 181);
+    text-align: right;
+ }
+ div#agree {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+ }
+ div.look {
+    height: 100%;
+    min-height: 9rem;
+    margin-top: 0.9375rem;
+    padding-top: 1rem;
+    border-top: 0.0625rem solid rgb(242, 242, 242);
+ }

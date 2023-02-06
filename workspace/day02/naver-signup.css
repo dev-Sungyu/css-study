@@ -1,0 +1,258 @@
+/* 로고 */
+#header .h_logo {
+    display: block;
+    margin: 0 auto;
+    width: 240px;
+    height: 44px;
+    background-image: url(https://static.nid.naver.com/images/ui/join/m_naver_logo_20191126.png);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: 240px auto;
+    color: transparent;
+    font-size: 0;
+}
+body, button, dd, dl, dt, fieldset, form, h1, h2, h3, h4, h5, h6, input, legend, li, ol, p, select, table, td, textarea, th, ul {
+    margin: 0;
+    padding: 0;
+    -webkit-text-size-adjust: none;
+}
+form {
+    display: block;
+    margin-top: 0em;
+}
+#container, #footer, #header {
+    min-width: 220px;
+    margin: 0 15px;
+    box-sizing: border-box;
+}
+#container {
+    width: auto;
+    max-width: 768px;
+}
+#container, #footer, #header {
+    margin: 0 auto;
+    max-width: 768px;
+    min-width: 460px;
+}
+div {
+    display: block;
+}
+#content {
+    max-width: 460px;
+    width: auto;
+    margin: 0 auto;
+}
+.blind {
+    position: absolute;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    margin: -1px;
+    width: 1px;
+    height: 1px;
+}
+body, button, dd, dl, dt, fieldset, form, h1, h2, h3, h4, h5, h6, input, legend, li, ol, p, select, table, td, textarea, th, ul {
+    padding: 0;
+    -webkit-text-size-adjust: none;
+}
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+body, button, dd, dl, dt, fieldset, form, h1, h2, h3, h4, h5, h6, input, legend, li, ol, p, select, table, td, textarea, th, ul {
+    margin: 0;
+    padding: 0;
+    -webkit-text-size-adjust: none;
+}
+.ipin_box, .row_group {
+    overflow: hidden;
+    width: 100%;
+}
+.join_title {
+    margin: 19px 0 8px;
+    font-size: 14px;
+    font-weight: 700;
+}
+h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+label {
+    cursor: pointer;
+}
+.join_title {
+    margin: 19px 0 8px;
+    font-size: 14px;
+    font-weight: 700;
+}
+.ps_box.int_id, .ps_box.int_id input {
+    background: #fff;
+    outline: 0;
+}
+.ps_box, .ps_box_disable {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 51px;
+    border: solid 1px #dadada;
+    padding: 10px 110px 10px 14px;
+    background: #fff;
+    box-sizing: border-box;
+    vertical-align: top;
+}
+.int {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 29px;
+    padding-right: 25px;
+    line-height: 29px;
+    border: none;
+    background: #fff;
+    font-size: 15px;
+    box-sizing: border-box;
+    z-index: 10;
+    *position: absolute;
+    *top: 0;
+    *left: 0;
+    apperance: none;
+    -webkit-apperance: none;
+}
+button, input, select, textarea {
+    border-radius: 0;
+    border: none;
+    background: 0 0;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    outline: 0;
+    text-decoration: none;
+    cursor: pointer;
+    -webkit-text-size-adjust: none;
+}
+body, button, input, select, table, textarea {
+    font-family: Dotum,'돋움',Helvetica,sans-serif;
+    font-size: 12px;
+    -webkit-text-size-adjust: none;
+}
+input {
+    writing-mode: horizontal-tb !important;
+    font-style: ;
+    font-variant-ligatures: ;
+    font-variant-caps: ;
+    font-variant-numeric: ;
+    font-variant-east-asian: ;
+    font-weight: ;
+    font-stretch: ;
+    font-size: ;
+    font-family: ;
+    text-rendering: auto;
+    color: fieldtext;
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    appearance: auto;
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    background-color: field;
+    margin: 0em;
+    padding: 1px 2px;
+    border-width: 2px;
+    border-style: inset;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    border-image: initial;
+}
+.step_url {
+    position: absolute;
+    top: 16px;
+    right: 13px;
+    font-size: 15px;
+    line-height: 18px;
+    color: #8e8e8e;
+}
+.error_next_box {
+    display: block;
+    margin: 9px 0 -2px;
+    font-size: 12px;
+    line-height: 14px;
+    color: red;
+}
+.ps_box.int_pass, .ps_box.int_pass_check, .ps_box.int_pass_check2 {
+    padding-right: 40px;
+}
+input[type="password" i] {
+    -webkit-text-security: disc !important;
+    padding: 1px 2px;
+}
+.ps_box .lbl {
+    left: 0;
+    padding: 0 14px;
+    width: 100%;
+    box-sizing: border-box;
+}
+.lbl {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 14px;
+    margin-top: -9px;
+    font-size: 15px;
+    line-height: 18px;
+    color: #8e8e8e;
+    z-index: 9;
+}
+.step_txt {
+    display: inline-block;
+    position: absolute;
+    top: 1px;
+    right: 38px;
+    font-size: 12px;
+}
+.ps_box.int_pass:after {
+    background-position: 0 0;
+}
+.ps_box.int_pass:after, .ps_box.int_pass_check2:after, .ps_box.int_pass_check:after, .ps_box.int_pass_step1:after, .ps_box.int_pass_step2:after, .ps_box.int_pass_step3:after, .ps_box.int_pass_step4:after {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    right: 13px;
+    width: 24px;
+    height: 24px;
+    margin-top: -12px;
+    background-image: url(https://static.nid.naver.com/images/ui/join/m_icon_pw_step.png);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: 125px 75px;
+    cursor: pointer;
+}
+input[type="password" i] {
+    -webkit-text-security: disc !important;
+    padding: 1px 2px;
+}
+.wa_blind {
+    position: absolute;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    margin: -1px;
+    width: 1px;
+    height: 1px;
+    font-size: 0;
+}
+.ps_box.int_pass_check:after {
+    background-position: -27px 0;
+}

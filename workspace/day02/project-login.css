@@ -1,0 +1,150 @@
+/* @font-face {
+    font-family: 'NotoSansKR.Black';
+    font-style: normal;
+    font-weight: normal;
+    src: local('NotoSansKR.Black'), url('NotoSansKR.Black.otf') format('otf');
+}
+@font-face {
+    font-family: 'NotoSansKR.Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('NotoSansKR.Bold'), url('NotoSansKR.Bold.otf') format('otf');
+}
+@font-face {
+    font-family: 'NotoSansKR.Light';
+    font-style: normal;
+    font-weight: normal;
+    src: local('NotoSansKR.Light'), url('NotoSansKR.Light.otf') format('otf');
+}
+@font-face {
+    font-family: 'NotoSansKR.Medium';
+    font-style: normal;
+    font-weight: normal;
+    src: local('NotoSansKR.Medium'), url('NotoSansKR.Medium.otf') format('otf');
+}
+@font-face {
+    font-family: 'NotoSansKR.Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('NotoSansKR.Regular'), url('NotoSansKR.Regular.otf') format('otf');
+}
+@font-face {
+    font-family: 'NotoSansKR.Thin';
+    font-style: normal;
+    font-weight: normal;
+    src: local('NotoSansKR.Thin'), url('NotoSansKR.Thin.otf') format('otf');
+} */
+
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+
+ }
+ @media (max-width: 991.5px)  {
+    #wrap {
+        background-color: white !important;
+    }
+    div.login h2 {
+        text-align: left !important;
+    }
+ }
+
+div.login {
+    text-align: center;
+    margin-bottom: 40px;
+    line-height: normal;
+    letter-spacing: normal;
+    /* max-width: 991.98px; */
+    padding-left: 1rem;
+    /* position: absolute; */
+    left: 50%;
+    color: #323232;
+    font-size: 20px;
+    font-weight: 500;
+    
+    }
+div.down {
+    width: 100%;
+    max-width: 26.5rem;
+    /* border: 0.0625rem solid #f2f2f2; */
+    border-radius: 8px;
+    margin: 0 auto;
+    box-shadow: none;
+}
+#wrap {
+    box-sizing: border-box;
+    background-color: #fafafa;
+    padding-top: 2.5rem;
+}
+div.main2 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 0.0625rem solid rgba(0,0,0,.125);
+    border-radius: 0.25rem;
+    border: none;
+    max-width: 350px;
+    
+    width: 100%;
+    /* max-width: 26.5rem; */
+    border: 0.0625rem solid #f2f2f2;
+    border-radius: 8px;
+    padding: 2.5rem;
+    margin: 0 auto;
+    box-shadow: none;
+}
+input[value="이메일 로그인"] {
+    color: white;
+}
+input::-webkit-input-placeholder { color: #bdbdbd; }
+div.btn_kakao {
+    position: relative;
+}
+.v-line {
+    border-left : thick solid #32a1ce;
+    height : 5px;
+  }
+  #kakao {
+    cursor: pointer;
+    width:338.4px;
+    height:48px;
+    font-size:15px;
+    background-color: #fee500; 
+    border-color: #fee500; 
+    border: none; 
+    padding: 0.6875rem 0.75rem; 
+    border-radius: 4px;
+    position: relative;
+  }
+  #naver {
+    cursor: pointer;
+    width:338.4px;
+    height:48px;
+    font-size:15px; 
+    background-color: #03c75a;
+    border-color: #03c75a;
+    border: none; 
+    padding: 0.6875rem 0.75rem;
+    border-radius: 4px; 
+    color: white;
+    position: relative;
+  }
+  #facebook {
+    cursor: pointer;
+    width:338.4px;
+    height:48px;
+    font-size:15px;
+    background-color: #0d64d6;
+    border-color: #0c5eca; 
+    border: none; 
+    padding: 0.6875rem 0.75rem;
+    border-radius: 4px; 
+    color: white;
+    position: relative;
+  }
+  div button {
+    text-align: center;
+  }

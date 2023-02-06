@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>position 실습</title>
+    <style>
+        div.img {
+            position: relative;
+            background-image: url("http://koreaitacademy.com/renewal2021/img/tch/teacher007.png");
+            background-size: 100%;
+            background-position: center;
+            width: 220px;
+            height: 315px;
+            margin: 0 auto;
+        }
+        #glass {
+            position: absolute;
+            left: 7%;
+            top: 17%;
+        }
+        #taba {
+            position: absolute;
+            left: 18%;
+            bottom: 43%;
+        }
+        #headpin {
+            position: absolute;
+            z-index: -1;
+            left: 12%;
+            top: -12%;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="img">
+        <div id="glass">
+            <img src="eyes.png" style="width: 150px;">
+        </div>
+        <div id ="taba">
+            <img src="taba.png" style="width: 50px;">
+        </div>
+        <div id="headpin">
+            <img src="headpin.jpg" style="width: 150px;">
+        </div>
+    </div>
+
+</body>
+</html>
